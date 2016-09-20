@@ -3,9 +3,9 @@
 
 	"name": "La Fromagerie",
 	"description": "Operaciones Internas de La Fromagerie",
-	"version": "0.0.0",
+	"version": "0.0.2",
 	"icons": {
-		"38": "iconos/iconoLaFrom38.jpg"            
+		"128": "iconos/iconoLaFrom128.png"            
 	},
 	"page_action": {
           "default_icon": {                    

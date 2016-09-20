@@ -42,7 +42,7 @@
             });
         });
     };
-    var output = fs.createWriteStream('ALMAFRIGO.zip');
+    var output = fs.createWriteStream('LaFromagerie.zip');
     output.on('close', function () {
         console.log('archiver has been finalized and the output file descriptor has closed.');
     });
