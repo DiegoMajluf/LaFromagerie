@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+
+	"name": "La Fromagerie",
+	"description": "Operaciones Internas de La Fromagerie",
+	"version": "0.0.0",
+	"icons": {
+		"38": "iconos/iconoLaFrom38.jpg"            
+	},
+	"page_action": {
+          "default_icon": {                    
+            "38": "iconos/iconoLaFrom38.jpg"            
+          }
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"tabs",
+		"http://192.168.0.53:4001/",
+		"http://www.lafromagerie.cl/*",
+		"http://www.sii.cl/*",
+		"https://www1.sii.cl/cgi-bin/Portal001/*",
+		"https://www.google.com/cloudprint/*",
+		"webRequest",
+		"webRequestBlocking"
+	]
+}
